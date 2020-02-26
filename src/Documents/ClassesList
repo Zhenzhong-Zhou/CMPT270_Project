@@ -1,0 +1,55 @@
+Zhenzhong Zhou, 11195696, zhz028
+
+Package containers {
+        DoctorAccess,java
+        PatientAccess.java
+        WardAccess.java
+}
+
+Package entities {
+        BasicDoctor.java
+        Doctor.java
+        Patient.java
+        Person.java
+        Surgeon.java
+        Ward.java
+}
+
+Package commandStatus {
+        AddDoctor.java
+        AddPatients.java
+        AssignBedToPatients.java
+        AssDoctors.java
+        CommandStatus.java
+        CreateNewWard.java
+        DisplayBedsStatus.java
+        ReleasePatient.java
+        SystemState.java
+}
+
+Package interfacegui {
+        AddDoctor.java
+        AddPatient.java
+        AssignDoctorsToPatient.java
+        AssignPatientsToBeds.java
+        GraphicOrDialogOrConsole.java
+        CreateNewWard.java
+        DisplayEmptyBeds.java
+        DropDoctorPatient.java
+        HomePage.java
+        ReleasePatient.java
+        TheMenu.java
+}
+
+Package startup {
+        HospitalSystem.java
+        StartUpDialogIO.java
+        StartupGUI.java
+        StartUPConsole.java
+}
+
+Package userinterface {
+        AbstractConsoleIO.java
+        AbstractDialogIO.java
+        InputOutputInterface.java
+}

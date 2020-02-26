@@ -1,0 +1,29 @@
+Zhenzhong Zhou, 11195696, zhz028
+
+== A. Execution ==
+
+Using Project Structure to create a .jar file in the Intellij, then Build Artifacts to build it
+Finally, go to out folder to find .jar file and run it
+
+Also, you can run some startup java in the startup package. After finishing the program, it will print some data
+that you typed in.
+
+Moreover, you can use console version  and GUI version or dialog version to test and try and check some features.
+
+== B. Status ==
+
+I think I did a pretty good test case for this project. Most of the features were tested.
+
+Just in different user interface versions have some small error. Most of features are working fine. However, some are not.
+
+For example, when I test GUI version, it cannot check my input health number whether the number is with patient or not,
+which it still can pass the window, and it cannot show up message,
+but the number cannot get in the patient container and overwrite it. Add Doctor has a similar problem.
+Assign Doctor to Patient has another story that is once check some errors, you cannot be able to do any options.
+
+== C. Maintenance ==
+
+Since the three-layer architecture design, users can be easy to change a new GUI version like from dialog to a combine frame.
+Also, users can add some features into some classes in the entities package. The three-layer architecture design make the
+program more robuster because users add any features and class that does not any error or link to the program, and the main
+program still can work originally.

@@ -1,0 +1,676 @@
+Zhenzhong Zhou, 11195696, zhz028
+
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java -Dfile.encoding=UTF-8 -jar /Users/bobzhou/IdeaProjects/CMPT270/out/artifacts/Assignment_4_jar/Assignment_4.jar
+Console or GUI: Total Clicked!
+Enter the name of the ward: CMPT270
+Enter the integer label of the first bed: 1
+Enter the integer label of the last bed: 0
+The name cannot be null or empty, the label of the first bed must be at least 0, and the label of the last bed must be at least as large as the first label.
+They are CMPT270, 1 and 0
+Try again.
+Enter the name of the ward:
+Enter the integer label of the first bed: 1
+Enter the integer label of the last bed: 1
+The name cannot be null or empty, the label of the first bed must be at least 0, and the label of the last bed must be at least as large as the first label.
+They are , 1 and 1
+Try again.
+Enter the name of the ward: CMPT270
+Enter the integer label of the first bed: 0
+Enter the integer label of the last bed: 12
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 1
+Enter the name of the patient: one
+Enter the health number of the patient: 123
+one123
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 1
+Enter the name of the patient: 456
+Enter the health number of the patient: 0.1
+You entered "0.1 which is not an int."
+Please try again: -1
+456-1
+The name cannot be null or empty, and the number must be positive.  They are 456 and -1
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 2
+Enter the name of the doctor: two
+Is the doctor a surgeon? (yes or no)d
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 8
+The system is as follows:
+The patients in the system are
+
+Name: one
+Health number: 123
+with doctors
+
+The doctors in the system are
+
+Name: two
+with patients
+
+The ward is
+Ward CMPT270 with capacity 13 has the following patients:
+bed 0:
+bed 1:
+bed 2:
+bed 3:
+bed 4:
+bed 5:
+bed 6:
+bed 7:
+bed 8:
+bed 9:
+bed 10:
+bed 11:
+bed 12:
+
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 2
+Enter the name of the doctor: 1
+Is the doctor a surgeon? (yes or no)y
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 8
+The system is as follows:
+The patients in the system are
+
+Name: one
+Health number: 123
+with doctors
+
+The doctors in the system are
+
+Surgeon
+Name: 1
+with patients
+
+Name: two
+with patients
+
+The ward is
+Ward CMPT270 with capacity 13 has the following patients:
+bed 0:
+bed 1:
+bed 2:
+bed 3:
+bed 4:
+bed 5:
+bed 6:
+bed 7:
+bed 8:
+bed 9:
+bed 10:
+bed 11:
+bed 12:
+
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 2
+Enter the name of the doctor: abc
+Is the doctor a surgeon? (yes or no)n
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 8
+The system is as follows:
+The patients in the system are
+
+Name: one
+Health number: 123
+with doctors
+
+The doctors in the system are
+
+Surgeon
+Name: 1
+with patients
+
+Name: abc
+with patients
+
+Name: two
+with patients
+
+The ward is
+Ward CMPT270 with capacity 13 has the following patients:
+bed 0:
+bed 1:
+bed 2:
+bed 3:
+bed 4:
+bed 5:
+bed 6:
+bed 7:
+bed 8:
+bed 9:
+bed 10:
+bed 11:
+bed 12:
+
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 4
+The empty beds of the ward are [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 3
+Enter the health number of the patient: 3
+There is no patient with health number 3
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 3
+Enter the health number of the patient: 0
+There is no patient with health number 0
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 3
+Enter the health number of the patient: 1
+There is no patient with health number 1
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 3
+Enter the health number of the patient: 123
+Enter the name of the doctor: abc
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 3
+Enter the health number of the patient: 123
+Enter the name of the doctor: wqe
+There is no doctor with name wqe
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 3
+Enter the health number of the patient: 123
+Enter the name of the doctor: one
+There is no doctor with name one
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 3
+Enter the health number of the patient: 123
+Enter the name of the doctor: two
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 8
+The system is as follows:
+The patients in the system are
+
+Name: one
+Health number: 123
+with doctors  abc two
+
+The doctors in the system are
+
+Surgeon
+Name: 1
+with patients
+
+Name: abc
+with patients  123
+
+Name: two
+with patients  123
+
+The ward is
+Ward CMPT270 with capacity 13 has the following patients:
+bed 0:
+bed 1:
+bed 2:
+bed 3:
+bed 4:
+bed 5:
+bed 6:
+bed 7:
+bed 8:
+bed 9:
+bed 10:
+bed 11:
+bed 12:
+
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 3
+Enter the health number of the patient: 123
+Enter the name of the doctor: two
+two is already a doctor for this patient
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 4
+The empty beds of the ward are [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 5
+Enter the health number of the patient: 2
+There is no patient with health number 2
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 5
+Enter the health number of the patient: 0
+There is no patient with health number 0
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 5
+Enter the health number of the patient: 0.2
+You entered "0.2 which is not an int."
+Please try again: -1
+There is no patient with health number -1
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 5
+Enter the health number of the patient: 123
+Enter the bed number for the patient: 1
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 5
+Enter the health number of the patient: 123
+ Patient
+Name: one
+Health number: 123
+in bed 1 with doctors  abc two
+ is already in a bed so cannot be assigned a new bed
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 1
+Enter the name of the patient: jim
+Enter the health number of the patient: 456
+jim456
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 5
+Enter the health number of the patient: 456
+Enter the bed number for the patient: 1
+Bed 1 is currently occupied by
+Name: one
+Health number: 123
+in bed 1 with doctors  abc two
+ so cannot be assigned to another patient
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 5
+Enter the health number of the patient: 456
+ Patient
+Name: jim
+Health number: 456
+in bed 1 with doctors
+ is already in a bed so cannot be assigned a new bed
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 3
+Enter the health number of the patient: rty
+You entered "rty which is not an int."
+Please try again: 678
+There is no patient with health number 678
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 5
+Enter the health number of the patient: 456
+ Patient
+Name: jim
+Health number: 456
+in bed 1 with doctors
+ is already in a bed so cannot be assigned a new bed
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 7
+Enter the health number of the patient: 1
+There is no patient with health number 1
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 7
+Enter the health number of the patient: q
+You entered "q which is not an int."
+Please try again: 123
+Enter the name of the doctor: abc
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 8
+The system is as follows:
+The patients in the system are
+
+Name: one
+Health number: 123
+in bed 1 with doctors  two
+
+Name: jim
+Health number: 456
+in bed 1 with doctors
+
+The doctors in the system are
+
+Surgeon
+Name: 1
+with patients
+
+Name: abc
+with patients
+
+Name: two
+with patients  123
+
+The ward is
+Ward CMPT270 with capacity 13 has the following patients:
+bed 0:
+bed 1: one
+bed 2:
+bed 3:
+bed 4:
+bed 5:
+bed 6:
+bed 7:
+bed 8:
+bed 9:
+bed 10:
+bed 11:
+bed 12:
+
+Please select an operation to do
+0: quit
+1: add a new patient
+2: add a new doctor
+3: assign a doctor to a patient
+4: display the empty beds of the ward
+5: assign a patient a bed
+6: release a patient
+7: drop doctor-patient association
+8: display current system state
+Enter the number of your selection: 0
+The system at shutdown is as follows:
+The patients in the system are
+
+Name: one
+Health number: 123
+in bed 1 with doctors  two
+
+Name: jim
+Health number: 456
+in bed 1 with doctors
+
+The doctors in the system are
+
+Surgeon
+Name: 1
+with patients
+
+Name: abc
+with patients
+
+Name: two
+with patients  123
+
+The ward is
+Ward CMPT270 with capacity 13 has the following patients:
+bed 0:
+bed 1: one
+bed 2:
+bed 3:
+bed 4:
+bed 5:
+bed 6:
+bed 7:
+bed 8:
+bed 9:
+bed 10:
+bed 11:
+bed 12:
+
+Ward is invalid since there is no ward. Ward must be created!
+Console or GUI: Console Clicked! 0
